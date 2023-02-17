@@ -4,8 +4,6 @@
 44 5 78 -> 78
 22 3 9 -> 22
 */
-
-
         Console.Write("Введите первое число: ");
         int number1 = int.Parse(Console.ReadLine());
 
@@ -26,8 +24,6 @@
             max = number3;
         }
 
-        
         Console.WriteLine("Максимальное число: " + max);
 
-        
         Console.ReadLine();
